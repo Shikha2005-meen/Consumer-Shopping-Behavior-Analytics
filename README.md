@@ -53,7 +53,6 @@ demographics, seasonal activity, review rating and % of customer by subscription
 
 ## Repository Structure
 
-- `data/` — Raw and cleaned datasets
 - `notebooks/` — Python analysis scripts
 - `sql/` — SQL queries
 - `reports/` — Analysis reports and charts
