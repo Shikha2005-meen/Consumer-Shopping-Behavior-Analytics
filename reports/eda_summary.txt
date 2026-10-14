@@ -1,0 +1,35 @@
+CONSUMER SHOPPING BEHAVIOR - EDA SUMMARY
+==================================================
+
+Dataset Shape:
+Rows: 3900
+Columns: 19
+
+Gender Distribution:
+Gender
+Male      2652
+Female    1248
+
+Category Purchase Count:
+Category
+Clothing       1737
+Accessories    1240
+Footwear        599
+Outerwear       324
+
+Seasonal Purchase Count:
+Season
+Spring    999
+Fall      975
+Winter    971
+Summer    955
+
+Payment Method Distribution:
+Payment Method
+PayPal           677
+Credit Card      671
+Cash             670
+Debit Card       636
+Venmo            634
+Bank Transfer    612
+

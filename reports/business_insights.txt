@@ -1,0 +1,65 @@
+CONSUMER SHOPPING BEHAVIOR ANALYTICS
+BUSINESS INSIGHTS AND RECOMMENDATIONS
+=======================================================
+
+1. OVERALL DATASET SUMMARY
+Total records: 3900
+Total recorded purchase amount: $233,081.00
+Average purchase amount: $59.76
+Average review rating: 3.75
+
+2. PRODUCT CATEGORY INSIGHTS
+Category with the highest total recorded purchase amount: Clothing ($104,264.00)
+Category with the lowest average purchase amount: Outerwear ($57.17)
+
+Category performance:
+             purchase_records  total_amount  average_amount
+Category                                                   
+Clothing                 1737        104264           60.03
+Accessories              1240         74200           59.84
+Footwear                  599         36093           60.26
+Outerwear                 324         18524           57.17
+
+3. CUSTOMER DEMOGRAPHICS
+Most represented gender category: Male (2652 records)
+Most frequently represented age in the dataset: 69 (88 records)
+
+4. SEASONAL SHOPPING INSIGHTS
+Season with the highest total recorded purchase amount: Fall ($60,018.00)
+        purchase_records  total_amount  average_amount
+Season                                                
+Fall                 975         60018           61.56
+Spring               999         58679           58.74
+Winter               971         58607           60.36
+Summer               955         55777           58.41
+
+5. DISCOUNT ANALYSIS
+                  count   mean  median
+Discount Applied                      
+No                 2223  60.13    60.0
+Yes                1677  59.28    60.0
+
+6. SUBSCRIPTION ANALYSIS
+                     records  average_amount  average_rating
+Subscription Status                                         
+No                      2847           59.87            3.75
+Yes                     1053           59.49            3.75
+
+7. PAYMENT METHOD INSIGHTS
+Most frequently recorded payment method: PayPal (677 records)
+Payment Method
+PayPal           677
+Credit Card      671
+Cash             670
+Debit Card       636
+Venmo            634
+Bank Transfer    612
+
+8. POTENTIAL BUSINESS RECOMMENDATIONS
+1. Product strategy: Review category-level purchase amounts and record counts before deciding inventory or marketing priorities.
+2. Seasonal planning: Compare seasonal patterns when planning campaigns, but validate them with additional time-based data.
+3. Promotions: Compare discount groups, while avoiding claims that discounts caused higher spending.
+4. Customer engagement: Compare subscription groups and investigate whether observed differences are meaningful.
+5. Customer experience: Review rating distributions and investigate the reasons behind low ratings before proposing improvements.
+
+Important limitation: These are observational dataset findings. Purchase amount is not profit, and group differences do not establish causation. Recommendations require validation before implementation.

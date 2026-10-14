@@ -1,0 +1,33 @@
+STATISTICAL ANALYSIS SUMMARY
+========================================
+
+Descriptive Statistics:
+count    3900.000000
+mean       59.764359
+std        23.685392
+min        20.000000
+25%        39.000000
+50%        60.000000
+75%        81.000000
+max       100.000000
+
+Category Summary:
+             count   mean  median    std
+Category                                
+Footwear       599  60.26    60.0  23.64
+Clothing      1737  60.03    60.0  23.79
+Accessories   1240  59.84    60.0  23.30
+Outerwear      324  57.17    54.5  24.59
+
+Correlation Matrix:
+                         Age  Purchase Amount (USD)  Review Rating  Previous Purchases
+Age                    1.000                 -0.010         -0.024               0.040
+Purchase Amount (USD) -0.010                  1.000          0.030               0.008
+Review Rating         -0.024                  0.030          1.000               0.004
+Previous Purchases     0.040                  0.008          0.004               1.000
+
+Subscription Summary:
+                     count   mean  median    std
+Subscription Status                             
+No                    2847  59.87    60.0  23.78
+Yes                   1053  59.49    60.0  23.45
